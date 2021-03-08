@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+--green:rgb(51, 179, 119);
+--metal:rgba(68, 111, 128, 0.459);
+--crblue: rgb(156, 232, 233);
+
+}
+body{
+  background:snow;
+}
+
+p {
+  font-family:Arial,Times, serif;
+ 
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding : 15px 50px;
+  background-color:var(--metal);
+  
+}
+
+header h1{
+  font-size: 40px;
+  padding: 5px;
+  color:var(--metal);
+  background-color:  rgb(156, 232, 233);
+}
+
+header nav {
+  text-align: center;
+  padding-top: 15px;  
+}
+
+header nav ul li {
+  display:inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a{
+  color:  rgb(156, 232, 233);
+  margin: 0 10px;
+  font-weight: lighter;
+  font-size : 1.7vw;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 3px solid rgb(156, 232, 233) ;
+}
+
+
+.hero{
+  height: 300px;
+  background-image: url("#");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+
+.hero h2{
+  color:var(--metal);
+  background-color:  rgb(156, 232, 233);
+  align-self: flex-end;
+  margin: 0 40px 20px 0;
+  padding: 5px;
+  font-size: 27px; 
+
+}
+
+.hero-img img{
+  width: 300px;
+  height: 300px;
+  padding: 20px 40px;
+  margin-left: 12px;
+}
+
+
+
+
+
+.Aboutme-header, .work-header,.contactme-header,.resume-header{
+  font-size: 25px;
+  padding: 0 6px;
+  border-right: 3px solid rgb(20, 3, 116);
+  text-align: right;
+  color: rgb(20, 3, 116) ;
+}
+
+.Aboutme-content{
+  font-family: Arial,Times, serif;
+  color: rgb(112, 46, 173) ;
+  padding-left: 30px;
+  line-height: 1.5;
+  
+}
+
+.About-me p {
+  font-size: 18px;
+  color: rgb(66, 37, 94)
+  
+}
+
+
+
+.work, .About-me{
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 50px 35px 50px;
+}
+
+
+.work-header{
+  
+  padding: 0 10px;
+  flex-wrap: wrap;
+}
+
+
+
+
+.work{
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 50px 35px 50px;
+}
+
+.work-content{
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 5px 20px 5px 20px;
+}
+
+.work-content a div h3, .work-content a div h4{
+  padding: 2px;
+}
+
+
+.box{
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;    
+  height: 150px; 
+  text-decoration: none;
+  padding-bottom: 10px;
+  margin-top: 20px;    
+  border: 3px solid rgb(156, 232, 233);
+  filter: brightness(65%);
+  transition: 1s;
+  box-shadow: rgb(9, 27, 9);
+}  
+
+.box:hover{
+  filter: brightness(100%);
+  height: 200px;
+  width: 48%;
+}
+
+.surf-report:hover{
+  width: 100%;
+}
+
+
+.box div{
+  background: rgb(156, 232, 233);
+  color: rgb(20, 3, 116);
+
+}
+  
+
+
+.run-buddy{
+  background-image: url("Assets\run-buddy.jpg");
+  width: 48%;
+
+}
+
+.run-buddy img {
+object-fit:cover;
+height:50px;
+width:100px ; 
+}
+
+.LED-Wall{
+  background-image: url("../images/LED-Wall.png");
+  width: 48%;
+  
+}
+
+.Pastel-Puzzels{
+  background-image: url("../images/robot-gladiator.jpg");
+  width: 48%;
+}
+
+.calculator{
+  background-image: url("../images/calculator.jpg");
+  width: 48%;
+}
+
+.surf-report{
+  background-image: url("../images/surf-report.jpg");
+  width: 97%;
+  
+}
+
+
+
+.contact-me{
+  display: flex;
+  padding: 10px 50px 10px 0px;
+}
+
+
+.contactme-header{
+  margin-left: 30px;
+  
+}
+
+.contact-me nav {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+
+.contact-me nav a{
+  font-size: 18px;
+  color: rgb(20, 3, 116);
+  margin-left: 50px;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 3px solid rgb(55, 30, 197) ;
+}
+
+
+
+
