@@ -171,7 +171,7 @@ header nav ul li a{
   width: 48%;
 }
 
-.surf-report:hover{
+.pro-trader:hover{
   width: 100%;
 }
 
@@ -185,16 +185,12 @@ header nav ul li a{
 
 
 .run-buddy{
-  background-image: url("Assets\run-buddy.jpg");
+  background-image: url("..Assets\run-buddy.jpg");
   width: 48%;
 
 }
 
-.run-buddy img {
-object-fit:cover;
-height:50px;
-width:100px ; 
-}
+
 
 .LED-Wall{
   background-image: url("../images/LED-Wall.png");
@@ -212,8 +208,8 @@ width:100px ;
   width: 48%;
 }
 
-.surf-report{
-  background-image: url("../images/surf-report.jpg");
+.pro-trader{
+  background-image: url("..Assets/.ProTrader.PNG");
   width: 97%;
   
 }
